@@ -13,7 +13,7 @@ The system includes:
 - **Estimation** – MATLAB scripts implementing **Eigenvalue** and **Hough transform** methods.
 
 ##  Repository Structure
-
+'''
 POLAR-Project/
 │
 ├── README.md
@@ -55,6 +55,7 @@ POLAR-Project/
 ├── ESTIMATION_hough.m # Hough estimation (single session)
 ├── hough_vs_eigen_with_errors.m # Compare Hough vs Eigen on multiple sessions
 └── Sun_Estimator_az_eig2.m # Core Eigenvalue estimation function
+'''
 
 ## Installation (Raspberry Pi 4/5, Ubuntu 22.04)
 ### 0. Prepare the SD card (Ubuntu 22.04)
@@ -93,7 +94,7 @@ To install Ubuntu 22.04 on your Raspberry Pi:
 ```bash
 sudo apt update && sudo apt upgrade -y
 
-### 2. Install system dependencies
+###  Install system dependencies
 
 ```bash
 sudo apt install -y python3-pip python3-tk python3-dev build-essential
@@ -380,9 +381,16 @@ Results are displayed in the MATLAB console with:
 
 
 
-## 🔗 References
+##  References
 
 - [eBUS SDK – JAI](https://www.jai.com/products/ebus-sdk)
 - [Arena SDK – Lucid](https://www.thinklucid.com/arena-sdk/)
 - [Pysolar – Solar ephemeris](https://pysolar.readthedocs.io/)
 - [Meteociel – Weather data](https://www.meteociel.fr)
+
+## Author
+
+**Rayen SMITI**  
+Internship Project – PFE  
+Institut des Sciences du Mouvement – UMR7287  
+2026
