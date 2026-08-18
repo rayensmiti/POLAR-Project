@@ -13,7 +13,7 @@ The system includes:
 - **Estimation** – MATLAB scripts implementing **Eigenvalue** and **Hough transform** methods.
 
 ##  Repository Structure
-'''text
+```text
 POLAR-Project/
 │
 ├── README.md
@@ -55,7 +55,7 @@ POLAR-Project/
 ├── ESTIMATION_hough.m # Hough estimation (single session)
 ├── hough_vs_eigen_with_errors.m # Compare Hough vs Eigen on multiple sessions
 └── Sun_Estimator_az_eig2.m # Core Eigenvalue estimation function
-'''
+```
 
 ## Installation (Raspberry Pi 4/5, Ubuntu 22.04)
 ### 0. Prepare the SD card (Ubuntu 22.04)
